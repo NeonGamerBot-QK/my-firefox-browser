@@ -1,28 +1,29 @@
 (this is a fork of zen browser but rebranded)
+
 # 🌀 Zeon Browser
 
 Experience tranquillity while browsing the web without people tracking you!
 
-* [Website](https://www.zen-browser.app)
-* [Download](https://www.zen-browser.app/download)
-* [Release Notes](https://www.zen-browser.app/release-notes/latest)
+- [Website](https://www.zen-browser.app)
+- [Download](https://www.zen-browser.app/download)
+- [Release Notes](https://www.zen-browser.app/release-notes/latest)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K111FH7H)
 <a href='https://flathub.org/apps/io.github.zen_browser.zen'>
-  <img width='220' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
+<img width='220' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
 </a>
 
 # Compatibility
 
 Zen is currently built using firefox version `129.0.2`!
 
-* Checkout the latest [releases notes](https://www.zen-browser.app/release-notes)!
+- Checkout the latest [releases notes](https://www.zen-browser.app/release-notes)!
 
 # Performance
 
 Zen is built with performance in mind, and we have optimized the browser to be as fast as possible!
 
-* Checkout the latest [performance benchmarks](./docs/performance.md)!
+- Checkout the latest [performance benchmarks](./docs/performance.md)!
 
 # Core Components
 
@@ -37,7 +38,7 @@ git clone https://github.com/zen-browser/desktop.git --recurse-submodules
 cd desktop
 ```
 
-Install dependencies 
+Install dependencies
 
 ```bash
 npm i
@@ -87,4 +88,3 @@ Zen coudn't be in its current state without the help of these amazing projects!
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zen-browser/desktop&type=Date" />
  </picture>
 </a>
-
