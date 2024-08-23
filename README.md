@@ -1,5 +1,5 @@
-
-# 🌀 Zen Browser
+(this is a fork of zen browser but rebranded)
+# 🌀 Zeon Browser
 
 Experience tranquillity while browsing the web without people tracking you!
 
