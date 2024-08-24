@@ -64,7 +64,7 @@ var ZenStartup = {
     }
     const watermark = window.MozXULElement.parseXULToFragment(`
       <html:div id="zen-watermark">
-        <image src="chrome://branding/content/about-logo.png" />
+Zeon img
       </html:div>
     `);
     document.body.appendChild(watermark);

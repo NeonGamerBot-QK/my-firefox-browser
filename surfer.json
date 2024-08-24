@@ -1,7 +1,7 @@
 {
-  "name": "Zen Browser",
-  "vendor": "Zen HQ",
-  "appId": "com.zen.browser",
+  "name": "Zeon Browser",
+  "vendor": "Neon",
+  "appId": "com.saahild.browser",
   "binaryName": "zen",
   "version": {
     "product": "firefox",
@@ -14,18 +14,18 @@
   "brands": {
     "beta": {
       "backgroundColor": "#282A33",
-      "brandShorterName": "Zen",
-      "brandShortName": "Zen Browser",
-      "brandFullName": "Zen Browser",
+      "brandShorterName": "Zeon",
+      "brandShortName": "Zeon Browser",
+      "brandFullName": "Zeon Browser",
       "release": {
         "displayVersion": "1.0.0"
       }
     },
     "alpha": {
       "backgroundColor": "#282A33",
-      "brandShorterName": "Zen",
-      "brandShortName": "Zen Browser",
-      "brandFullName": "Zen Browser",
+      "brandShorterName": "Zeon",
+      "brandShortName": "Zeon Browser",
+      "brandFullName": "Zeon Browser",
       "release": {
         "displayVersion": "1.0.0-a.28",
         "github": {
