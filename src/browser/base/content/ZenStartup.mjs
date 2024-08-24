@@ -1,4 +1,3 @@
-
 var ZenStartup = {
   init() {
     this._changeSidebarLocation();
@@ -11,10 +10,7 @@ var ZenStartup = {
     this.__hasInitBrowserLayout = true;
     this.openWatermark();
     console.info("ZenThemeModifier: init browser layout");
-    const kNavbarItems = [
-      "nav-bar",
-      "PersonalToolbar"
-    ];
+    const kNavbarItems = ["nav-bar", "PersonalToolbar"];
     const kNewContainerId = "zen-appcontent-navbar-container";
     let newContainer = document.getElementById(kNewContainerId);
     for (let id of kNavbarItems) {
@@ -25,7 +21,8 @@ var ZenStartup = {
     }
 
     // Fix notification deck
-    document.getElementById("zen-appcontent-navbar-container")
+    document
+      .getElementById("zen-appcontent-navbar-container")
       .appendChild(document.getElementById("tab-notification-deck-template"));
 
     gZenVerticalTabsManager.init();
@@ -34,15 +31,15 @@ var ZenStartup = {
 
     function throttle(f, delay) {
       let timer = 0;
-      return function(...args) {
-          clearTimeout(timer);
-          timer = setTimeout(() => f.apply(this, args), delay);
-      }
+      return function (...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => f.apply(this, args), delay);
+      };
     }
 
-    new ResizeObserver(throttle(
-      this._updateTabsToolbar.bind(this), 1000
-    )).observe(document.getElementById("tabbrowser-tabs"));
+    new ResizeObserver(
+      throttle(this._updateTabsToolbar.bind(this), 1000),
+    ).observe(document.getElementById("tabbrowser-tabs"));
 
     this.closeWatermark();
   },
@@ -51,11 +48,14 @@ var ZenStartup = {
     // Set tabs max-height to the "toolbar-items" height
     const toolbarItems = document.getElementById("tabbrowser-tabs");
     const tabs = document.getElementById("tabbrowser-arrowscrollbox");
-    tabs.style.maxHeight = '0px'; // reset to 0
+    tabs.style.maxHeight = "0px"; // reset to 0
     const toolbarRect = toolbarItems.getBoundingClientRect();
     // -5 for the controls padding
     tabs.style.maxHeight = toolbarRect.height - 5 + "px";
-    console.info("ZenThemeModifier: set tabs max-height to", toolbarRect.height + "px");
+    console.info(
+      "ZenThemeModifier: set tabs max-height to",
+      toolbarRect.height + "px",
+    );
   },
 
   openWatermark() {
